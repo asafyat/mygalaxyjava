@@ -10,12 +10,11 @@ public class HelloWorld {
     public String hello() {
         return "Hello, World!";
     }
-//Test
     @Command // two,
     public int add(int a, int b) {
         return a + b;
     }
-
+   
     public static void main(String[] args) throws IOException {
         ShellFactory.createConsoleShell("hello", "", new HelloWorld())
             .commandLoop(); // and three.
