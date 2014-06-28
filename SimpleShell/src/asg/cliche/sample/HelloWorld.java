@@ -8,15 +8,17 @@ public class HelloWorld {
 
     @Command // One,
     public String hello() {
-        return "Hello, World!";
+        return "welcome to Galaxy Game";
     }
     @Command // two,
     public int add(int a, int b) {
         return a + b;
     }
    
+
+   
     public static void main(String[] args) throws IOException {
-        ShellFactory.createConsoleShell("hello", "", new HelloWorld())
+        ShellFactory.createConsoleShell("galaxy", "", new HelloWorld())
             .commandLoop(); // and three.
     }
 }
