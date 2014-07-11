@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 
 import javax.swing.text.StyledEditorKit.BoldAction;
 
-public class HelloWorld {
+public class loginOrRegister {
    private static String userName = null;
 
     @Command//the start command
@@ -77,7 +77,7 @@ public class HelloWorld {
 	        	Register();
    	}
         System.out.println("Thanks for the name, " + userName);
-        ShellFactory.createConsoleShell("galaxy", "", new HelloWorld())
+        ShellFactory.createConsoleShell("galaxy", "", new loginOrRegister())
             .commandLoop(); // and three.
     }
 	
