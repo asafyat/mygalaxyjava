@@ -1,10 +1,17 @@
 package asg.cliche.sample.models;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Entity
+@Table(name="PLAYER-INFO")
 public class Player {
 		String id;
 		String name;
 		String password;
 		
+		
+		@Id
 		public String getId() {
 			return id;
 		}
