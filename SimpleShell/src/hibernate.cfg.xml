@@ -14,6 +14,6 @@
 <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 <property name="hibernate.current_session_context_class">thread</property>
 <property name="hbm2ddl.auto">create</property>
-<mapping class="com.elad.hibernate.Student_info"</mapping>
+<mapping class="asg.cliche.sample.models.player"</mapping>
 </session-factory>
 </hibernate-configuration>
